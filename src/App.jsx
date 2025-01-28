@@ -37,12 +37,13 @@ const App = () => {
   <div className="about">
     <h1>SOBRE MIM</h1>
     <p>
-      Tenho 21 anos, sou Técnica em Informática pelo IFSul e atualmente curso Design
-      Gráfico na Universidade Federal de Pelotas. Em 2015 comecei a editar vídeos e desde
-      então mantive um canal no YouTube que mantenho até hoje como um hobby. Tenho
-      experiência em programação, com domínio em React JS, JavaScript e C++. Além disso,
-      possuo conhecimentos básicos em GML (Game Maker Language). Programei o jogo
-      O Mundo Mágico de Luna e frequentemente participo de vários projetos da UFPel.
+    Tenho 21 anos, me chamo Mariana, sou Técnica em Informática pelo IFSul e 
+    atualmente curso Design Gráfico pela Universidade Federal de Pelotas. 
+    Em 2015 comecei a editar vídeos e desde então mantenho um canal no YouTube 
+    que até hoje levo como um hobby. Tenho experiência em programação, com domínio 
+    em React, JavaScript e C++, e, além disso, programei o jogo O Mundo Mágico 
+    de Luna que foi totalmente executado em GameMaker Language. Por aqui listo 
+    alguns dos meus trabalhos tanto acadêmicos quanto aqueles feitos no tempo livre.
     </p>
   </div>
   <div className="gallery-row">
