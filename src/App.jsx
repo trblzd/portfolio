@@ -14,6 +14,9 @@ import marca from "./assets/UFPel/marca.png";
 import photoshop1 from "./assets/Outros/ps1.png";
 import tumblr1 from "./assets/Outros/tumblr1.jpg";
 import tumblr2 from "./assets/Outros/tumblr2.jpg";
+import anne1 from "./assets/UFPel/anne1.jpg";
+import anne2 from "./assets/UFPel/anne2.jpg";
+import anne3 from "./assets/UFPel/anne3.jpg";
 
 const Images = [
   badminton,
@@ -27,6 +30,9 @@ const Images = [
   photoshop1,
   tumblr1,
   tumblr2,
+  anne1,
+  anne2,
+  anne3
 ];
 const App = () => {
   return (
