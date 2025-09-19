@@ -1,0 +1,33 @@
+.header {
+  background-color: #2C3930; 
+  width: 100%;
+  margin: 0;
+  position: fixed; 
+  top: 0;
+  z-index: 1000; 
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.header-content h1 {
+  color: #DCD7C9; 
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 0.15rem;
+  font-family: 'Luckiest Guy', sans-serif;
+}
+#h1hover {
+  transition: transform 0.2s;
+}
+#h1hover:hover {
+  color: #A27B5C;
+  transform: scale(1.1);
+}
