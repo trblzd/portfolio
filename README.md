@@ -4,15 +4,15 @@ Bem-vindo ao meu perfil no GitHub!
 
 ## 🚀 Sobre Mim
 
-- 💬 Estou cursando Design na UFPEL e sou Técnica em Informática.
-- ⚡ As vezes apareço aqui, as vezes não.
+- 💬 Estou cursando Design na UFPEL e sou Técnica em Informática pelo IFSul Bagé.
+- ⚡ As vezes apareço aqui!.
 
 ## 🛠️ Minhas Habilidades
 
 - **Linguagens:** JavaScript, HTML, CSS, GML
 - **Frameworks:** React, Node.js
 - **Ferramentas:** Git, VS Code
-- **Bancos de Dados:** PostgreSQL, MongoDB, Firebase
+- **Bancos de Dados:** Firebase
 
 ## 📈 Minhas Estatísticas no GitHub
 
@@ -20,14 +20,13 @@ Bem-vindo ao meu perfil no GitHub!
 
 ## 🔗 Conecte-se Comigo
 
-- [LinkedIn](https://www.linkedin.com/in/mariana-ferreira-278472281/)
-- [Twitter](https://twitter.com/dzlbrt)
+- [LinkedIn](https://www.linkedin.com/in/marianatxf/)
 - [Site Pessoal](https://trblzd.github.io/portfolio/)
 
 ## 🧑‍💻 Contribuições em Código Aberto
 
-- [Portfolio](https://github.com/trblzd/portfolio)
 - [O Mundo Mágico de Luna](https://github.com/trblzd/OMMDL)
+- [NerDesign](https://github.com/trblzd/NerDesign)
 
 ## 📝 Últimos Posts no Blog
 
