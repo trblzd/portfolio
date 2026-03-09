@@ -1,0 +1,118 @@
+.main-footer {
+  width: 100%;
+  position: relative;
+  height: 40vh;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.star-overflow-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.spinning-star {
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  bottom: 0vh;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.footer-content {
+  position: absolute;
+  bottom: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-links a {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  color: #F1F1EA;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.footer-links a:hover {
+  transform: translateY(-0.3rem);
+  color: #D1E2BC;
+}
+
+@media (max-width: 48rem) {
+  .main-footer {
+    height: 25vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-end !important;
+    position: relative !important;
+    overflow: hidden !important;
+    margin-top: auto !important;
+  }
+
+  .star-overflow-container {
+    display: flex !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1 !important;
+  }
+
+  .spinning-star {
+    position: absolute !important;
+    width: 200vw !important;
+    height: auto !important;
+    bottom: -5vh !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    display: block !important;
+  }
+
+  .footer-content {
+    position: absolute !important;
+    z-index: 10 !important;
+    bottom: 5vh !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .footer-links {
+    justify-content: center !important;
+  }
+
+  .footer-links a:not(.home-link),
+  .footer-links button {
+    display: none !important;
+  }
+
+  .footer-links .home-link {
+    display: block !important;
+    color: #F1F1EA !important;
+    font-size: 1.2rem !important;
+    letter-spacing: 0.2rem !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+  }
+}

@@ -1,0 +1,171 @@
+.projeto-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10vw;
+  min-height: 100vh;
+  background-color: transparent; 
+}
+
+.projeto-header {
+  width: 100%;
+  text-align: left;
+}
+
+.projeto-titulo {
+  margin-top: 50vh; 
+  font-family: 'Narnia', serif;
+  font-size: 5vw;
+  color: #418162; 
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 10vh;
+  letter-spacing: 0.3vw;
+}
+
+.projeto-secao {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 10vh;
+}
+
+.projeto-main-layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 5vw;
+  align-items: flex-start;
+  margin-bottom: 10vh;
+}
+
+.projeto-text-column {
+  flex: 1;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.projeto-subtitulo-alinhado {
+  font-family: 'Narnia', serif;
+  font-size: 3.5rem;
+  color: #418162;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 3vh;
+  line-height: 1.1;
+  letter-spacing: 0.125vw;
+}
+
+.projeto-meta-info {
+  margin-bottom: 3vh;
+}
+
+.projeto-meta-info p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.45rem;
+  color: #418162;
+  margin: 0.4rem 0;
+}
+
+.projeto-descricao {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #418162;
+  text-align: left;
+}
+
+.projeto-external-link {
+  display: inline-block;
+  margin-top: 2vh;
+  font-family: 'Narnia', serif;
+  font-size: 1.5rem;
+  color: #418162;
+  text-decoration: underline;
+  transition: opacity 0.3s;
+}
+
+.projeto-external-link:hover {
+  opacity: 0.7;
+}
+
+.projeto-image-column {
+  flex: 1.2;
+}
+
+.img-destaque {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 30px; 
+}
+
+.projeto-galeria-flex {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+  width: 100%;
+}
+
+.galeria-flex-item {
+  flex: 1 1 calc(33.333% - 20px); 
+  min-width: 280px; 
+  display: flex;
+  justify-content: center;
+}
+
+.img-flex-fluid {
+  width: 100%;
+  height: auto;
+  object-fit: contain; 
+  align-self: flex-start;
+  border-radius: 20px;
+}
+
+.section-spacer {
+  margin-bottom: 10vh;
+}
+
+.projeto-not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Narnia', serif;
+  color: #418162;
+  font-size: 2rem;
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 64rem) {
+  .projeto-container {
+    padding: 0 5vw;
+  }
+
+  .projeto-titulo {
+    font-size: 12vw;
+    margin-top: 20vh;
+  }
+
+  .projeto-main-layout {
+    flex-direction: column; /* Empilha texto e imagem no tablet/mobile */
+    gap: 5vh;
+  }
+
+  .projeto-text-column {
+    max-width: 100%;
+  }
+
+  .galeria-flex-item {
+    flex: 1 1 calc(50% - 20px); /* 2 imagens por linha */
+  }
+}
+
+@media (max-width: 30rem) {
+  .projeto-subtitulo-alinhado {
+    font-size: 2.2rem;
+  }
+
+  .galeria-flex-item {
+    flex: 1 1 100%; /* 1 imagem por linha no celular */
+  }
+}

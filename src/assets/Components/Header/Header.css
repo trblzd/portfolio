@@ -1,0 +1,38 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5vh 10vw 0 10vw;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 10;
+}
+
+.logo-img {
+  height: 4.5rem;
+  width: auto;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4rem;
+}
+
+.header-nav a {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.15rem;
+  color: #418162;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  transition: transform 0.3s, color 0.3s;
+  text-transform: uppercase;
+}
+
+.header-nav a:hover {
+  color: #D1E2BC;
+  transform: translateY(-0.2rem);
+}

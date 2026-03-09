@@ -1,0 +1,140 @@
+  .projects-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 0 10vw;
+    position: relative;
+  }
+
+  .projects-title {
+    margin-top: 50vh;
+    font-family: 'Narnia', serif;
+    font-size: 12vw;
+    color: #418162;
+    letter-spacing: 1vw;
+    margin-bottom: 10vh;
+    text-align: left;
+    line-height: 1;
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20vh; 
+  }
+
+  .project-card {
+    width: 100%;
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #ufpel {
+    align-self: flex-start;
+    margin-top: 0;
+  }
+
+  #videos {
+    align-self: flex-end;
+    text-align: right;
+    margin-top: -15vh; 
+  }
+
+  #videos .project-list {
+    align-items: flex-end;
+  }
+
+  #outros {
+    align-self: flex-start;
+    margin-top: 10vh;
+  }
+
+  .section-subtitle {
+    font-family: 'Narnia', serif;
+    font-size: 4.5rem;
+    color: #418162;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+
+  .project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .project-link {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    text-decoration: none;
+    color: #418162 !important;
+    transition: transform 0.3s ease, color 0.3s ease;
+    white-space: nowrap;
+  }
+
+  .project-link:hover {
+    color: #D1E2BC !important;
+    transform: scale(1.05);
+  }
+
+  .random-project-btn {
+    background: #418162; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Narnia', serif;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    margin-bottom: 10vh;
+  }
+
+  .random-project-btn:hover {
+    background: #D1E2BC; 
+    color:#418162;
+    transform: scale(1.05);
+  }
+
+
+  @media (max-width: 75rem) {
+    #videos {
+      margin-top: 5vh; 
+    }
+    
+    .project-card {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 48rem) {
+    .projects-title {
+      font-size: 16vw;
+      margin-top: 50vh;
+    }
+    .random-project-btn{
+      margin-bottom: 2vh;
+    }
+      #ufpel, #videos, #outros {
+      align-self: flex-start;
+      text-align: left;
+      margin-top: 0vh;
+    }
+
+    #videos .project-list {
+      align-items: flex-start;
+    }
+  }

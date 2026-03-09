@@ -1,0 +1,168 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 0vh 10vw 0 10vw;
+}
+
+.main-title {
+  margin-top: 50vh;
+  font-family: 'Narnia', serif;
+  font-size: 12vw;
+  color: #418162;
+  letter-spacing: 1vw;
+  margin-bottom: 10vh;
+  text-align: left;
+  width: 100%;
+  line-height: 1;
+}
+
+.hover-letter {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: default;
+}
+
+.hover-letter:hover {
+  color: #D1E2BC;
+  transform: translateY(-1rem);
+}
+
+.blocks-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10vh;
+}
+
+#about-me {
+  flex: 1;
+  max-width: 30rem;
+}
+
+#skills {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 40vh;
+  text-align: right;
+}
+
+.section-subtitle {
+  font-family: 'Narnia', serif;
+  font-size: 4.5rem;
+  color: #418162;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.content-wrapper p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #418162;
+  margin-bottom: 1.4rem;
+}
+
+.intro-text {
+  font-size: 1.6rem !important;
+  line-height: 1.2 !important;
+}
+
+.highlight {
+  font-family: 'Narnia', serif;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.skill-group {
+  margin-bottom: 2.5rem;
+  width: 100%;
+}
+
+#skills .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.skill-group h3 {
+  font-family: 'Narnia', serif;
+  font-size: 2.8rem;
+  color: #418162;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.skill-group p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+  max-width: 100%;
+  margin-left: auto;
+}
+
+.cta-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5vh 0 10vh 0;
+}
+
+.cta-button {
+  background-color: #418162;
+  color: #F1F1EA;
+  font-family: 'Narnia', serif;
+  font-size: 3.5rem;
+  padding: 1rem 4rem 2rem 4rem;
+  border: none;
+  border-radius: 6rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  line-height: 1;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  background-color: #D1E2BC;
+  color: #418162;
+}
+
+@media (max-width: 64rem) {
+  .main-title {
+    font-size: 16vw;
+  }
+  .blocks-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-subtitle {
+    font-size: 2.5rem !important; 
+  }
+  .skill-group h3 {
+    font-size: 1.8rem !important; 
+  }
+
+  #skills {
+    margin-top: 5vh;
+    align-items: flex-start;
+    text-align: left;
+  }
+  #skills .content-wrapper {
+    align-items: flex-start;
+  }
+  .skill-group p {
+    margin-left: 0;
+    text-align: left;
+  }
+  .cta-button {
+  font-size: 1.8rem !important;
+  padding: 1rem 3rem 2rem 3rem;
+}
+}

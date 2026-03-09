@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Narnia';
+  src: url('./assets/fonts/narnia.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+#root {
+  background-color: #F1F1EA; 
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  z-index: 0;
+}
+
+#root::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/pazul.png');
+  background-repeat: repeat;
+  background-size: 80%; 
+  opacity: 0.3; 
+  pointer-events: none; 
+  z-index: -1; 
+}
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
