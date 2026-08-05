@@ -18,11 +18,13 @@ const Projetos = () => {
         { name: "Fotografia - 2025", url: "/projeto/fotografia", externo: false },
         { name: "Fotografia e Design - 2026", url: "/projeto/fotografia-design", externo: false },
         { name: "Identidade Visual: Ciclo - 2026", url: "/projeto/ciclo", externo: false },
+        { name: "Identidade Visual: SUSi - 2026", url: "/projeto/susi", externo: false },
         { name: "O Mundo Mágico de Luna - 2025", url: "https://github.com/trblzd/OMMDL", externo: true },
         { name: "Léia - 2025", url: "https://wp.ufpel.edu.br/projetoleia/", externo: true },
         { name: "NerDesign - 2025", url: "/projeto/nerdesign", externo: false },
         { name: "Trajetórias - 2025", url: "https://trajetorias.web.illinois.edu/", externo: true },
-        { name: "LabXD - 2025", url: "https://institucional.ufpel.edu.br/projetos/id/u8086", externo: true }
+        { name: "LabXD - 2025", url: "https://institucional.ufpel.edu.br/projetos/id/u8086", externo: true },
+        { name: "Busepel - 2026", url: "/projeto/busepel", externo: false }
       ]
     },
     {

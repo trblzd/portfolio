@@ -296,6 +296,34 @@ export const projetosData = {
       },
     ],
   },
+  susi: {
+    titulo: "Identidade Visual: SUSi",
+    disciplina: "",
+    semestre: "2026/1",
+    secoes: [
+      {
+        subtitulo: "",
+        colaboradores: [""],
+        descricao:
+          "Desenvolvimento da identidade visual da marca SUSi, chatbot focado no Sistema Público de Saúde em Pelotas. Conta com o Manual da Marca e diferentes aplicações da marca",
+        link: {
+          label: "Manual da Marca",
+          url: "https://www.figma.com/deck/003ZGK6wkOSqeKL4LcVLUS",
+        },
+        fotos: {
+          principal: "images/susi/Stationery.png",
+          galeria: [
+            "images/susi/SUSi.jpg",
+            "images/susi/1.png",
+            "images/susi/2.png",
+            "images/susi/3.png",
+            "images/susi/4.png",
+            "images/susi/5.png",
+          ],
+        },
+      },
+    ],
+  },
   nerdesign: {
     titulo: "NerDesign",
     disciplina: "História do Design",
@@ -393,6 +421,28 @@ export const projetosData = {
             "images/Outros/6.png",
             "images/Outros/7.png",
           ],
+        },
+      },
+    ],
+  },
+
+  busepel: {
+    titulo: "Busepel",
+    disciplina: "Design de Interação",
+    semestre: "2026/1",
+    secoes: [
+      {
+        subtitulo: "",
+        colaboradores: [
+          "Guilherme Silva dos Santos",
+          "Maria Eduarda Bachini Pedra",
+        ],
+        descricao:
+          "WebApp desenvolvida para o transporte de apoio da UFPel, com o objetivo de fornecer informações sobre horários, rotas e localização dos ônibus. O projeto foi desenvolvido em equipe, com foco na experiência do usuário. Desenvolvi inteiramente a parte de programação do WebApp, utilizando React.js e Firebase para o backend. O design da interface foi criado em colaboração com a equipe, garantindo uma experiência intuitiva e agradável para os usuários.",
+        link: { label: "Acesssar o Busepel", url: "https://busepel.web.app" },
+        fotos: {
+          principal: "images/Busepel/busepel.jpg",
+          galeria: [],
         },
       },
     ],
